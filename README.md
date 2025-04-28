@@ -12,7 +12,7 @@ bundle install
 ```
 and then run `ruby app.rb`. There's also a Dockerfile that should do it for you.
 
-Then you can send a request to "/get_flashcards?url=https://rise.articulate.com/share/whatever", which will return the formatted flashcards. No HTML or JSON.
+Then you can send a request to `localhost:4567/get_flashcards?url=https://rise.articulate.com/share/whatever`, which will return the formatted flashcards. No HTML or JSON.
 
 ## TODO
 
